@@ -1,0 +1,33 @@
+@media (max-width:1230px) {
+  .container{
+    margin: 0 auto;
+  }
+}
+@media (max-width:767px){
+  .form-wrapper {
+    .container {
+      display: block;
+      padding-bottom: 0px;
+    }
+  }
+  .warning{
+    margin:40px 0px 37px 0px;
+  }
+}
+
+@media (max-width:375px){
+  .form{
+    &__title{
+      font-size: 32px;
+    }
+    &__subtitle{
+      font-size: 20px;
+    }
+  }
+
+}
+@media(max-width:386px){
+    .form__select-box--width{
+      width: 146%;
+    }
+}
